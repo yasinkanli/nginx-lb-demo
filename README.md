@@ -62,14 +62,6 @@ Response Instance: app4 : 5 request
 
 İstekler tek tek ve ardışık gönderildiği için `least_conn` pratikte hemen hemen eşit dağılım verir.
 
-## Uygulamayı Docker olmadan çalıştırma
-
-```
-./mvnw spring-boot:run
-```
-
-`INSTANCE_NAME` tanımlı değilse uygulama `local` adıyla cevap verir. Bu modda uygulama Spring Boot'un varsayılan portunda, `8080`'de dinler.
-
 ## Proje yapısı
 
 ```
